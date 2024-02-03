@@ -33,7 +33,7 @@ namespace Lab3App
 
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
-            foreach (Collectable collectable in  possibleCollectiable)
+            foreach (Collectable collectable in possibleCollectiable)
             {
                 collectable.Board = board;
             }
@@ -50,6 +50,7 @@ namespace Lab3App
             Console.WriteLine("========================================");
             Console.WriteLine("==== All the Collected items ===========");
             Console.WriteLine("========================================");
+
             //Display all what was collected in a for each loop
             foreach (Collectable collectable in possibleCollectiable)
             {
